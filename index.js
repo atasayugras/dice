@@ -1,8 +1,8 @@
 var rNum1 = Math.floor((Math.random()*6)) + 1;
 var rNum2 = Math.floor((Math.random()*6)) + 1;
 
-var rDiceImgSrc1 = "/images/dice" + rNum1 + ".png";
-var rDiceImgSrc2 = "/images/dice" + rNum2 + ".png";
+var rDiceImgSrc1 = "/dice/images/" + rNum1 + ".png";
+var rDiceImgSrc2 = "/dice/images/" + rNum2 + ".png";
 
 $("img:first").attr("src", rDiceImgSrc1);
 $("img:last").attr("src", rDiceImgSrc2);
